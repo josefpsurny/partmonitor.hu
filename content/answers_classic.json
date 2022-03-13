@@ -1,0 +1,7 @@
+[{"id": 1, "slug": 1, "name": "DK–Jobbik–Momentum–MSZP–Párbeszéd–LMP", "abbreviation": "Egységben Magyarországért", "logo": "1", "votes": {"1": 1, "2": -1, "3": -1, "4": 0}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": true},
+  {"id": 2, "slug": 2, "name": "Normális Élet Pártja", "abbreviation": "NÉP", "logo": "2", "votes": {"1": 1, "2": 1, "3": 1, "4": 1}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": false},
+  {"id": 3, "slug": 3, "name": "Magyar Kétfarkú Kutya Párt", "abbreviation": "MKKP", "logo": "3", "votes": {"1": 1, "2": -1, "3": -1, "4": 0}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": false},
+  {"id": 4, "slug": 4, "name": "Megoldás Mozgalom", "abbreviation": "MEMO", "logo": "4", "votes": {"1": 1, "2": -1, "3": -1, "4": 0}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": false},
+  {"id": 5, "slug": 5, "name": "Mi Hazánk Mozgalom", "abbreviation": "MI HAZÁNK", "logo": "5", "votes": {"1": 1, "2": -1, "3": -1, "4": 0}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": false},
+  {"id": 6, "slug": 6, "name": "FIDESZ - Magyar Polgári Szövetség - Kereszténydemokrata Néppárt", "abbreviation": "FIDESZ-KDNP", "logo": "6", "votes": {"1": 1, "2": -1, "3": -1, "4": 0}, "comments": {"1": "", "2": "", "3": "", "4": ""}, "vip": true}
+]
