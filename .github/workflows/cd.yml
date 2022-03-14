@@ -29,8 +29,8 @@ jobs:
         run: yarn generate
 
       - name: Deploy
-        working-directory: ./vue/test-2022
         uses: peaceiris/actions-gh-pages@v3
         with:
+          working-directory: ./vue/test-2022
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
