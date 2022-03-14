@@ -44,7 +44,7 @@ export default {
     createImageLink: function (name) {
       // https://www.psp.cz/eknih/cdrom/2017ps/eknih/2017ps/poslanci/i6254.jpg
       // return "https://www.psp.cz/eknih/cdrom/2013ps/eknih/2013ps/poslanci/i" + name + ".jpg"
-      return "/logos/" + name + ".webp"
+      return "./logos/" + name + ".webp"
       // CDN
       // return "https://michalskop-gitlab-io.azureedge.net/sinventura-2017-2021.volebnikalkulacka.cz/photos/" + name + ".webp"
       // return "https://www.volebnikalkulacka.cz/cs/volby-2021/logos/" + name + ".webp"
