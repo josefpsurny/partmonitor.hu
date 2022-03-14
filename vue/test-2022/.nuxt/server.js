@@ -55,7 +55,7 @@ const createNext = ssrContext => (opts) => {
   }
   let fullPath = withQuery(opts.path, opts.query)
   const $config = ssrContext.runtimeConfig || {}
-  const routerBase = ($config._app && $config._app.basePath) || '/partmonitor.hu/vue/test-2022/'
+  const routerBase = ($config._app && $config._app.basePath) || '/partmonitor.hu/'
   if (!fullPath.startsWith('http') && (routerBase !== '/' && !fullPath.startsWith(routerBase))) {
     fullPath = joinURL(routerBase, fullPath)
   }

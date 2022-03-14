@@ -75,9 +75,10 @@ export default {
   build: {
   },
   router: {
-    base: '/partmonitor.hu/vue/test-2022/'
+    // base: '/partmonitor.hu/vue/test-2022/'
     // base: '/hu/test-2022/'
     // base: '/'
+    base: '/partmonitor.hu/'
   },
   generate: {
     routes() {

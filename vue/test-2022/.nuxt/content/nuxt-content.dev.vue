@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     fileUrl () {
-      return `/partmonitor.hu/vue/test-2022/_content${this.document.path}${this.document.extension}`
+      return `/partmonitor.hu/_content${this.document.path}${this.document.extension}`
     }
   },
   mounted () {

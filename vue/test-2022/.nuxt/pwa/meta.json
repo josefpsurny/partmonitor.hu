@@ -54,17 +54,17 @@
     {
       "hid": "shortcut-icon",
       "rel": "shortcut icon",
-      "href": "/partmonitor.hu/vue/test-2022/_nuxt/icons/icon_64x64.16d783.png"
+      "href": "/partmonitor.hu/_nuxt/icons/icon_64x64.16d783.png"
     },
     {
       "hid": "apple-touch-icon",
       "rel": "apple-touch-icon",
-      "href": "/partmonitor.hu/vue/test-2022/_nuxt/icons/icon_512x512.16d783.png",
+      "href": "/partmonitor.hu/_nuxt/icons/icon_512x512.16d783.png",
       "sizes": "512x512"
     },
     {
       "rel": "manifest",
-      "href": "/partmonitor.hu/vue/test-2022/_nuxt/manifest.e5964604.json",
+      "href": "/partmonitor.hu/_nuxt/manifest.5d9b7efd.json",
       "hid": "manifest"
     }
   ],

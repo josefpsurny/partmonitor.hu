@@ -20,7 +20,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/partmonitor.hu/vue/test-2022/',
+  base: '/partmonitor.hu/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,

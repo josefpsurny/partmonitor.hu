@@ -77,7 +77,7 @@ export default {
         return
       }
       this._connecting = true
-      this.sse = new EventSource('/partmonitor.hu/vue/test-2022/_loading/sse')
+      this.sse = new EventSource('/partmonitor.hu/_loading/sse')
       this.sse.addEventListener('message', event => this.onSseMessage(event))
     },
     onSseMessage (message) {

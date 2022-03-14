@@ -21,7 +21,7 @@ export default (ctx, inject) => {
       path = `/${path}`
     }
 
-    return new QueryBuilder(`/partmonitor.hu/vue/test-2022/_content${path}`, options)
+    return new QueryBuilder(`/partmonitor.hu/_content${path}`, options)
   }
 
   inject('content', $content)
@@ -82,7 +82,7 @@ export default (ctx, inject) => {
           return
         }
         const protocol = location.protocol === 'https:' ? 'wss' : 'ws'
-        const wsPath = '/partmonitor.hu/vue/test-2022/_content/ws'
+        const wsPath = '/partmonitor.hu/_content/ws'
         const wsURL = `${protocol}://${location.hostname}:${location.port}${wsPath}`
         logger.log(`WS connect to ${wsURL}`)
         ws = new WebSocket(wsURL)
