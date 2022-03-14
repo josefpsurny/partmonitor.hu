@@ -31,6 +31,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          working-directory: ./vue/test-2022
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
