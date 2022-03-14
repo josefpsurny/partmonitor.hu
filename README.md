@@ -1,4 +1,1 @@
-partmonitor.hu
-==============
-
-Pártmonitor.hu
+Voksmonitor.hu
