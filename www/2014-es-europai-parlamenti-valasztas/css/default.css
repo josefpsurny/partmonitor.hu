@@ -1,0 +1,62 @@
+@media (min-width: 666px) {
+  .header {
+    background: url("../image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+  }
+}
+
+/* note: must be first, before the logos/photos */
+.sprite {
+    background: url('../image/hu-sprite.jpg') no-repeat top left;
+    width: 80px;
+    height: 80px;
+}
+
+.sprite-dk{ background-position: 0 0; width: 80px; height: 80px; } 
+.sprite-egyutt-pm{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.sprite-fidesz{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.sprite-jobbik{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.sprite-kdnp{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.sprite-liberlisok{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.sprite-lmp{ background-position: 0 -780px; width: 80px; height: 80px; } 
+.sprite-mszp{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.sprite-none{ background-position: 0 -1040px; width: 62px; height: 80px; } 
+.sprite-szocildemokratk{ background-position: 0 -1170px; width: 80px; height: 80px; } 
+
+/* note: must be first, before the logos/photos */
+/*.sprite {*/
+/*    background: url('../image/sk-sprite.jpg') no-repeat top left;*/
+/*}*/
+
+/*.sprite-dost{ background-position: 0 0; width: 80px; height: 80px; } */
+/*.sprite-eds{ background-position: 0 -130px; width: 80px; height: 80px; } */
+/*.sprite-kdh{ background-position: 0 -260px; width: 80px; height: 80px; } */
+/*.sprite-kds{ background-position: 0 -390px; width: 80px; height: 80px; } */
+/*.sprite-kss{ background-position: 0 -520px; width: 80px; height: 80px; } */
+/*.sprite-ls-hzds{ background-position: 0 -650px; width: 80px; height: 80px; } */
+/*.sprite-lsns{ background-position: 0 -780px; width: 80px; height: 80px; } */
+/*.sprite-most-hid{ background-position: 0 -910px; width: 80px; height: 80px; } */
+/*.sprite-ms{ background-position: 0 -1040px; width: 80px; height: 80px; } */
+/*.sprite-nas{ background-position: 0 -1170px; width: 80px; height: 80px; } */
+/*.sprite-nova{ background-position: 0 -1300px; width: 80px; height: 80px; } */
+/*.sprite-np{ background-position: 0 -1430px; width: 80px; height: 80px; } */
+/*.sprite-oks{ background-position: 0 -1560px; width: 80px; height: 80px; } */
+/*.sprite-olano{ background-position: 0 -1690px; width: 80px; height: 80px; } */
+/*.sprite-pas{ background-position: 0 -1820px; width: 80px; height: 80px; } */
+/*.sprite-sas{ background-position: -130px 0; width: 80px; height: 80px; } */
+/*.sprite-sdku-ds{ background-position: -130px -130px; width: 80px; height: 80px; } */
+/*.sprite-sds{ background-position: -130px -260px; width: 80px; height: 80px; } */
+/*.sprite-7-statocnych{ background-position: -130px -390px; width: 80px; height: 80px; } */
+/*.sprite-sls{ background-position: -130px -520px; width: 80px; height: 80px; } */
+/*.sprite-smer-sd{ background-position: -130px -650px; width: 80px; height: 80px; } */
+/*.sprite-smk-mkp{ background-position: -130px -780px; width: 80px; height: 80px; } */
+/*.sprite-sms{ background-position: -130px -910px; width: 80px; height: 80px; } */
+/*.sprite-sns{ background-position: -130px -1040px; width: 80px; height: 80px; } */
+/*.sprite-sol{ background-position: -130px -1170px; width: 80px; height: 80px; } */
+/*.sprite-sz{ background-position: -130px -1300px; width: 80px; height: 80px; } */
+/*.sprite-tip{ background-position: -130px -1430px; width: 80px; height: 80px; } */
+/*.sprite-vzdor{ background-position: -130px -1560px; width: 80px; height: 80px; }*/
+
+
+#container li {
+    background: url(csg-5350b3aa4674f.jpg) no-repeat top left;
+}

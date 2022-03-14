@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
@@ -88,3 +89,37 @@ sw.*
 
 # Vim swap files
 *.swp
+=======
+dev/
+smarty/templates_c/
+smarty/templates_c/*
+smarty/cache/
+jmk/
+www/result.txt
+www/email.txt
+www/jmk/
+www/setup.php
+www/research.txt
+www/2014-es-onkormanyzati-valasztas/research.txt
+www/volba-prezidenta-cr-2013/research_post.txt
+*result.txt
+*__init__.py
+*__pychache__/*
+*cache/*
+*local_settings.*
+*.~lock*
+*click.txt
+cache/
+research.txt
+cache/*
+research_post.txt
+result.csv
+results.csv
+click.csv
+position.csv
+fingerprint.csv
+log.csv
+bot/
+pixels.csv
+actions.csv
+>>>>>>> 60f56f6bfe8e829d502913f4b6b99286f12c48ef

@@ -1,0 +1,13 @@
+{
+    "answers_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSb5jvfZWEsd4a9NTtHaElM7RSONQn4oZf9v31LTaDDaK6bNW1PFDnI9DkLtFcQF-EzsZFfCcIkAsG5/pub?gid=285287371&single=true&output=csv",
+    "voters_url":"https://docs.google.com/spreadsheets/d/e/2PACX-1vSb5jvfZWEsd4a9NTtHaElM7RSONQn4oZf9v31LTaDDaK6bNW1PFDnI9DkLtFcQF-EzsZFfCcIkAsG5/pub?gid=1632724681&single=true&output=csv",
+    "questions_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSb5jvfZWEsd4a9NTtHaElM7RSONQn4oZf9v31LTaDDaK6bNW1PFDnI9DkLtFcQF-EzsZFfCcIkAsG5/pub?gid=270217634&single=true&output=csv",
+    "answers_codes_column": 2,
+    "answers_step": 2,
+    "answers_first": 3,
+    "number_of_questions": 46,
+    "yes": "Igen",
+    "no": "Nem",
+    "picture_prepend": "",
+    "picture_append": ".jpg"
+}
