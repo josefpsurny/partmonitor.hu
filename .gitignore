@@ -30,3 +30,4 @@ log.csv
 bot/
 pixels.csv
 actions.csv
+node_modules/
