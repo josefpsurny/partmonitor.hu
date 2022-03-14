@@ -20,16 +20,16 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Change directory
-        run: cd vue/test-2022
-
       - name: Install dependencies
+        working-directory: ./vue/test-2022
         run: yarn
 
       - name: Generate
+        working-directory: ./vue/test-2022
         run: yarn generate
 
       - name: Deploy
+        working-directory: ./vue/test-2022
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
