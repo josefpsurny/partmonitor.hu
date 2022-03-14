@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # test-2022
 
 ## Build Setup
@@ -68,9 +67,4 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-=======
-partmonitor.hu
-==============
 
-Pártmonitor.hu
->>>>>>> 60f56f6bfe8e829d502913f4b6b99286f12c48ef
