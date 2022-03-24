@@ -21,15 +21,15 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        working-directory: ./vue/test-2022
+        working-directory: ./vue/2022-es-orszaggyulesi-valasztas
         run: yarn
 
       - name: Generate
-        working-directory: ./vue/test-2022
+        working-directory: ./vue/2022-es-orszaggyulesi-valasztas
         run: yarn generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./vue/test-2022/dist
+          publish_dir: ./vue/2022-es-orszaggyulesi-valasztas/dist
