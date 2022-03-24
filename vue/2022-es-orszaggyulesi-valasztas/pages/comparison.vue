@@ -208,9 +208,9 @@ export default {
     showTextVote: function(value) {
       switch (value) {
         case 1:
-          return  'Mert' //'🟢'
+          return  'Egyetért' //'🟢'
         case -1: 
-          return 'Ellen' //'🔴'
+          return 'Nem ért egyet' //'🔴'
         case 0:
           return 'Semleges' //'⚪'
         default:
