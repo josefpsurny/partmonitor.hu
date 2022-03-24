@@ -1,4 +1,4 @@
-name: cd test 2022
+name: cd valasztas 2022
 
 on: [push, pull_request]
 
