@@ -265,9 +265,9 @@ export default {
       const thisCalc = {
         answers: this.answers,
         weights: this.weights,
-        name: 'Volební kalkulačka 2021',
+        name: 'Voksmonitor 2022',
         date: today.toISOString(),
-        calc: 'cz_psp_2021',
+        calc: 'hu_2022',
         path: '/cs/volby-2021/',
         version: '0.1.1'
       }

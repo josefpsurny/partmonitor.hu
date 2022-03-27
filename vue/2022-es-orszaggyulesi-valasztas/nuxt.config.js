@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'test-2022',
+    title: 'Voksmonitor 2022',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,7 +19,7 @@ export default {
       { hid: "fb:app_id", property:"fb:app_id", content:"297106463778572" },
       { hid: "og:image", property:'og:image', content: "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" },
       { hid: "og:type", property:"og:type", content:"website" },
-      { hid: "og:url", property:"og:url", content:"https://www.volebnikalkulacka.cz/cs/volby-2021/" },
+      { hid: "og:url", property:"og:url", content:"https://www.voksmonitor.hu/" },
       { hid: "apple-mobile-web-app-title", name: "apple-mobile-web-app-title", property:"apple-mobile-web-app-title", content:"Voksmonitor.hu 2022" }
     ],
     link: [

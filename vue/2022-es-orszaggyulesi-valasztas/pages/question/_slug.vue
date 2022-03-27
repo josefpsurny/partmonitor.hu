@@ -60,7 +60,7 @@ export default {
 
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - ' + this.question.name,
+      title: 'Voksmonitor 2022 - ' + this.question.name,
       meta: [
         {
           hid: 'question ' + this.question.slug,
