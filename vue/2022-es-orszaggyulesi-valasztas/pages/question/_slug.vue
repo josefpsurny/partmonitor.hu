@@ -144,6 +144,14 @@ export default {
       font-size: 1.25em;
     }
   }
+  @media (max-width: 420px) {
+    .card-title {
+      font-size: 1.25em;
+    }
+    .card-text {
+      font-size: 0.75em;
+    }
+  }
 
   .page {
     /* size depends on sizes of header */

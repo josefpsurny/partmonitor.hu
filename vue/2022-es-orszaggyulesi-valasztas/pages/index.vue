@@ -68,7 +68,4 @@ export default {
   .top {
     min-height: 100vh;
   }
-  .footer {
-
-  }
 </style>
