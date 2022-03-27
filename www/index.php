@@ -5,20 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voksmonitor Budapest 2019 - Melyik főpolgármester-jelölt áll hozzád a legközelebb?">
+    <meta name="description" content="Voksmonitor 2022 - Melyik párt áll hozzád a legközelebb?">
     <meta name="keywords" content="választás">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
 
     <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
 	<meta property="og:title" content="Voksmonitor"/>
-	<meta property="og:description" content="Voksmonitor Budapest 2019 - Melyik főpolgármester-jelölt áll hozzád a legközelebb?"/>
+	<meta property="og:description" content="Voksmonitor 2022 - Melyik párt áll hozzád a legközelebb?"/>
 	<meta property="og:url" content="http://voksmonitor.hu"/>
 	<meta property="og:site_name" content="Voksmonitor"/>
 	<meta property="og:type" content="website"/>
     <meta property="fb:app_id" content="297106463778572"/>
 
-    <title>Voksmonitor Budapest 2019</title>
+    <title>Voksmonitor 2022</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -75,9 +75,17 @@
 
 		<div class="vert-text">
 
-			<h1 class="voksh1">Voksmonitor Budapest 2019</h1>
+			<h1 class="voksh1">Voksmonitor 2022</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
-			<p class="lead">
+            <p class="lead">
+               A <strong>Voksmonitor 2022</strong> segítségével összehasonlíthatod saját véleményedet az országgyűlési választásokon induló pártok álláspontjával.
+
+                   <div style="padding-bottom:3em">
+                        <a href="https://kohovolit.github.io/partmonitor.hu/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+				    </div>
+            </p>
+
+			<!-- <p class="lead">
                A <strong>Voksmonitor Budapest</strong> segítségével összehasonlíthatod saját véleményedet az önkormányzati választásokon induló főpolgármester-jelöltek álláspontjával.
 
                    <div style="padding-bottom:3em">
@@ -91,7 +99,7 @@
                             START IN ENGLISH
                     </a>
                 </div>
-            </p>
+            </p> -->
 
 				   <p>
 
