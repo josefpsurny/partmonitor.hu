@@ -268,7 +268,7 @@ export default {
         name: 'Voksmonitor 2022',
         date: today.toISOString(),
         calc: 'hu_2022',
-        path: '/cs/volby-2021/',
+        path: '/hu/2022-es-orszaggyulesi-valasztas/',
         version: '0.1.1'
       }
       storedCalcs.push(thisCalc)
@@ -291,10 +291,10 @@ export default {
       }
       let params = {
         vkid: c,
-        calc: 'volby_2021',
+        calc: 'hu_2022',
         answer: JSON.stringify({ answers: this.answers, weights: this.weights })
       }
-      axios.get("https://a.volebnikalkulacka.cz/volby-2021/results.php", { params: params })
+      axios.get("https://voksmonitor.hu/2022-es-orszaggyulesi-valasztas/results.php", { params: params })
     },
 
     scrollToTop() {

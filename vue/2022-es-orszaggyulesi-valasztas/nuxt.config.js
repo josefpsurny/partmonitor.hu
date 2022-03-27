@@ -78,7 +78,8 @@ export default {
     // base: '/partmonitor.hu/vue/test-2022/'
     // base: '/hu/test-2022/'
     // base: '/'
-    base: '/partmonitor.hu/'
+    base: '/partmonitor.hu/' // for github pages
+    // base: '/hu/2022-es-orszaggyulesi-valasztas/'  // for custom server
   },
   generate: {
     routes() {
