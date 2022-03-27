@@ -1,5 +1,6 @@
 <template>
   <div class="page container">
+    <Header />
 
     <!-- <div v-if="noAnswer" class="alert alert-warning mt-2">
       Není zodpovězená ani jedna otázka, všichni tedy mají 50% shodu a jsou seřazeni náhodně.
@@ -22,10 +23,10 @@
     <div class="container p-2 ">
       <em>Tipp: Kattintson egy oldalra a részletes összehasonlításhoz és a kérdésekhez fűzött megjegyzésekhez </em>
     </div>
-    <hr/>
+    <!-- <hr/>
       <div class="d-grid gap-2 col-sm-6 mx-auto">
         <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/1xbuHjvoSJMRBxF1QSCkJWvK288qPeh5ftc7rRGfV3CU/edit?usp=sharing" target="_blank">Tabulka všech otázek a odpovědí</a>
-      </div>
+      </div> -->
     <!-- <hr/>
     <div class="d-grid gap-2 col-sm-6 mx-auto">
       <button type="button" class="btn" :class="{'disabled btn-secondary': !isChanged, 'btn-primary': isChanged}" @click="store()">{{ saveResultText }}</button>
@@ -48,6 +49,7 @@
     <Givt /> -->
     <!-- <hr/>
     <Darujme /> -->
+    <Footer />
     <Analytics />
   </div>
 </template>
@@ -56,7 +58,9 @@
 // import Givt from "~/components/Givt.vue"
 // import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
+import Footer from "~/components/Footer.vue"
 import axios from 'axios'
+import Header from '~/components/Header.vue'
 
 export default {
   async asyncData ({ $content }) {
@@ -319,7 +323,9 @@ export default {
   components: {
     // Givt,
     // Darujme,
-    Analytics
+    Analytics,
+    Footer,
+    Header
   }
 }
 </script>
