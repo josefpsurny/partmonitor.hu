@@ -81,7 +81,7 @@
                A <strong>Voksmonitor 2022</strong> segítségével összehasonlíthatod saját véleményedet az országgyűlési választásokon induló pártok álláspontjával.
 
                    <div style="padding-bottom:3em">
-                        <a href="https://kohovolit.github.io/partmonitor.hu/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+                        <a href="https://kohovolit.github.io/partmonitor.hu/question/1/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
 				    </div>
             </p>
 
