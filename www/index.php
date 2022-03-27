@@ -81,7 +81,7 @@
                A <strong>Voksmonitor 2022</strong> segítségével összehasonlíthatod saját véleményedet az országgyűlési választásokon induló pártok álláspontjával.
 
                    <div style="padding-bottom:3em">
-                        <a href="https://kohovolit.github.io/partmonitor.hu/question/1/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+                        <a href="/hu/2022-es-orszaggyulesi-valasztas/question/1/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
 				    </div>
             </p>
 
@@ -131,6 +131,7 @@
 
                     <a href="http://kmonitor.hu" title="K-monitor" id="footer-kmonitor-logo"><img src="2014-es-europai-parlamenti-valasztas/image/kmonitor.png" alt="K-Monitor"/></a>
                     <p><a href="http://KohoVolit.eu" title="KohoVolit.eu" id="footer-kohovolit-logo"><img src="image/logo.png" alt="logo kohovolit.eu" /></a></p>
+                    <p><a href="https://cesko.digital" title="Cesko.digital" id="footer-cesko-digital-logo" target="_blank" ><img src='/hu/2022-es-orszaggyulesi-valasztas/cesko.digital.svg' alt="logo cesko.digital" width="311"></a></p>
 
 
 
