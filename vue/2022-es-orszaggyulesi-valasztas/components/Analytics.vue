@@ -3,6 +3,9 @@
   <iframe src="https://voksmonitor.hu/session/" width="0" height="0" frameborder="0"></iframe>
   <noscript><div><img src="https://mc.yandex.ru/watch/88052570" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- <noscript><p><img src="//piwik.kohovolit.eu/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript> -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K33BBGX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </div>
 </template>
 <script>
@@ -23,6 +26,11 @@ if (process.browser) {
   ga('create', 'UA-49538088-1', 'auto');
   ga('send', 'pageview');
 }
+
+if (process.browser) {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K33BBGX');
+}
+
 
 // if (process.browser) {
 //   var _paq = _paq || [];
