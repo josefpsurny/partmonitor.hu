@@ -42,7 +42,7 @@
             	     <h3>{$size['name']}</h3>
             	     <div data-role="fieldcontain">
 						<p>HTML:</p>
-						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="https://voksmonitor.hu/{$c['friendly_url']}key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
+						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="{$c['friendly_url']}key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
 					</div>
             	    </div>
             	 {/foreach}

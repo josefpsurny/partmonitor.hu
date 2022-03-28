@@ -20,10 +20,19 @@ $constit = array(
   'zilina' => 'Žilinský kraj'
 );
 
+$calc2022= array (
+  array(
+    'name' => 'voksmonitor-2022',
+    'friendly_url' => 'https://kohovolit-github-io.azureedge.net/partmonitor.hu/?',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $calc2019bp = array (
   array(
     'name' => 'budapest-2019',
-    'friendly_url' => 'hu/budapest-2019/?',
+    'friendly_url' => 'https://voksmonitor.hu/hu/budapest-2019/?',
     'selected' => true,
     'custom' => true
   ),
@@ -32,7 +41,7 @@ $calc2019bp = array (
 $calc2019ep = array (
   array(
     'name' => '2019-es európai parlamenti választás',
-    'friendly_url' => 'hu/2019-es-europai-parlamenti-valasztas/?',
+    'friendly_url' => 'https://voksmonitor.hu/hu/2019-es-europai-parlamenti-valasztas/?',
     'selected' => true,
     'custom' => true
   ),
@@ -41,7 +50,7 @@ $calc2019ep = array (
 $calc2014bp = array (
   array(
     'name' => '2014-es onkormanyzati választás',
-    'friendly_url' => '2014-es-onkormanyzati-valasztas/?',
+    'friendly_url' => 'https://voksmonitor.hu/2014-es-onkormanyzati-valasztas/?',
     'selected' => true,
     'custom' => true
   ),
@@ -50,7 +59,7 @@ $calc2014bp = array (
 $calc2014ep = array (
   array(
     'name' => '2014-es európai parlamenti választás',
-    'friendly_url' => '2014-es-europai-parlamenti-valasztas/?',
+    'friendly_url' => 'https://voksmonitor.hu/2014-es-europai-parlamenti-valasztas/?',
     'selected' => true,
     'custom' => true
   ),
@@ -74,6 +83,11 @@ $sizes = array(
 );
 
 $calcs = array(
+  'calc2019bp' => array(
+    'name' => 'Voksmonitor 2022',
+    'calc' => $calc2022,
+  ),
+
     'calc2019bp' => array(
       'name' => 'Voksmonitor Budapest 2019',
       'calc' => $calc2019bp,
