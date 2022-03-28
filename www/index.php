@@ -141,7 +141,7 @@
   <li><a href="embed/">Voksmonitor beágyazása</a></li>
   <li><a href="archive/">Archív</a></li>
 </ul>
-					<p class="black">Creative Commons BY-SA 4.0 | <a href="http://kmonitor.hu">K-Monitor</a> & <a href="http://kohovolit.eu">KohoVolit.eu</a> 2019</p>
+					<p class="black">Creative Commons BY-SA 4.0 | <a href="http://kmonitor.hu">K-Monitor</a> & <a href="http://kohovolit.eu">KohoVolit.eu</a> 2022</p>
                 </div>
             </div>
         		</div>

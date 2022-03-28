@@ -28,7 +28,7 @@
       </div>
 
       <div class="d-grid p-2">
-        <NuxtLink to="/results/" class="btn btn-primary" @click.native="next" >>> Ugrás >></NuxtLink>
+        <NuxtLink to="/results/" class="btn btn-primary" @click.native="next" >>> Eredmények  >></NuxtLink>
       </div>
     </div>
 

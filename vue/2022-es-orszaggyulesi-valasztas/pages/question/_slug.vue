@@ -30,7 +30,7 @@
             <button v-if="notFirst" @click="back(null)" class="btn btn-link text-muted">&lt; Vissza</button>
           </div>
           <div class="col-6 d-grid d-flex justify-content-end">
-            <button @click="next(null)" class="btn btn-link text-muted" :class="{'btn-dark': isActive[null], '': !isActive[null]}">Ugrás ></button>
+            <button @click="next(null)" class="btn btn-link text-muted" :class="{'btn-dark': isActive[null], '': !isActive[null]}">Tovább ></button>
           </div>
         </div>
       </div>
