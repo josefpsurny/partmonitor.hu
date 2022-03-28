@@ -3,7 +3,7 @@
     <Header />
       <div class="page container">
       <h2 class="p-2">
-          Hasonlítsa össze  <small>(max. 3 párt )</small>
+          Hasonlítsa össze  <small>(max. 3 oszlop)</small>
       </h2>
 
       <div class="row">
