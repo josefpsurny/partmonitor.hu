@@ -83,7 +83,7 @@ $sizes = array(
 );
 
 $calcs = array(
-  'calc2019bp' => array(
+  'calc2022' => array(
     'name' => 'Voksmonitor 2022',
     'calc' => $calc2022,
   ),
