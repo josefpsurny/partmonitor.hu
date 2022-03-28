@@ -21,7 +21,7 @@
     <ResultsTable :results="results" />
     <hr/>
     <div class="container p-2 ">
-      <em>Tipp: Kattintson egy oldalra a részletes összehasonlításhoz és a kérdésekhez fűzött megjegyzésekhez </em>
+      <em>Tipp: Kattintson az egyik sorra a részletes összehasonlításhoz és a kérdésekhez fűzött megjegyzésekhez</em>
     </div>
     <!-- <hr/>
       <div class="d-grid gap-2 col-sm-6 mx-auto">
