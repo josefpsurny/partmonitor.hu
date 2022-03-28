@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voksmonitor 2022 - Melyik párt áll hozzád a legközelebb?">
+    <meta name="description" content="Voksmonitor 2022 - Hasonlítsd össze az álláspontod a pártokéval!">
     <meta name="keywords" content="választás">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
 
-    <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
-	<meta property="og:title" content="Voksmonitor"/>
-	<meta property="og:description" content="Voksmonitor 2022 - Melyik párt áll hozzád a legközelebb?"/>
+    <meta property="og:image" content="https://kohovolit-github-io.azureedge.net/partmonitor.hu/bgfb2022.webp"/>
+	<meta property="og:title" content="Voksmonitor 2022"/>
+	<meta property="og:description" content="Voksmonitor 2022 - Hasonlítsd össze az álláspontod a pártokéval!"/>
 	<meta property="og:url" content="http://voksmonitor.hu"/>
 	<meta property="og:site_name" content="Voksmonitor"/>
 	<meta property="og:type" content="website"/>
@@ -35,7 +35,7 @@
     h1.voksh1{font-size: 2.5em;line-height: 40px; }
 	@media (min-width: 666px) {
   .header {
-        background: url("https://voksmonitor.azureedge.net/2014-es-onkormanyzati-valasztas/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://kohovolit-github-io.azureedge.net/partmonitor.hu/bg2022.webp") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
       h1.voksh1{font-size: 4.5em;line-height: 60px; }
     }
