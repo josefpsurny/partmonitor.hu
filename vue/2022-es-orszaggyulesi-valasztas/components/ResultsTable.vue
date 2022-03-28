@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <h4 class="p-2">Az én meccsem:</h4>
+      <h4 class="p-2">Az én eredményeim:</h4>
 
       <ul class="list-group" v-for="(result, index) in results" :key="index">
         <!-- <li class="list-group-item d-flex" @click="showCandidate(result.info.id)"> -->
