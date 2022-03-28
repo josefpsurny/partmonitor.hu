@@ -188,7 +188,7 @@
         });
     });
     </script>
-    <!-- google analytics -->
+    <!-- google analytics
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-49538088-1']);
@@ -198,7 +198,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    </script>
+    </script> -->
     <!-- /google analytics -->
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K33BBGX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
