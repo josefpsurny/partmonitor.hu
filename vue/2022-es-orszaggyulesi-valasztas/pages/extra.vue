@@ -22,13 +22,13 @@
 
       <div v-if="zeroAnswers">
         <div class="alert alert-warning" role="alert">
-          Nem válaszoltak kérdésekre:<br/>
+          Nincsenek megválaszolt kérdések:<br/>
           <NuxtLink to="/question/1/">Futtassa a választási kalkulátort az elejétől</NuxtLink>
         </div>
       </div>
 
       <div class="d-grid p-2">
-        <NuxtLink to="/results/" class="btn btn-primary" @click.native="next" >>> Eredmények  >></NuxtLink>
+        <NuxtLink to="/results/" class="btn btn-primary" @click.native="next" >>> Eredményeim  >></NuxtLink>
       </div>
     </div>
 
