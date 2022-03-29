@@ -5,20 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voksmonitor Budapest 2019 - Melyik főpolgármester-jelölt áll hozzád a legközelebb?">
+    <meta name="description" content="Voksmonitor 2022 - Hasonlítsd össze az álláspontod a pártokéval!">
     <meta name="keywords" content="választás">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
 
-    <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
-	<meta property="og:title" content="Voksmonitor"/>
-	<meta property="og:description" content="Voksmonitor Budapest 2019 - Melyik főpolgármester-jelölt áll hozzád a legközelebb?"/>
+    <meta property="og:image" content="https://kohovolit-github-io.azureedge.net/partmonitor.hu/bgfb2022.webp"/>
+	<meta property="og:title" content="Voksmonitor 2022"/>
+	<meta property="og:description" content="Voksmonitor 2022 - Hasonlítsd össze az álláspontod a pártokéval!"/>
 	<meta property="og:url" content="http://voksmonitor.hu"/>
 	<meta property="og:site_name" content="Voksmonitor"/>
 	<meta property="og:type" content="website"/>
     <meta property="fb:app_id" content="297106463778572"/>
 
-    <title>Voksmonitor Budapest 2019</title>
+    <title>Voksmonitor 2022</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     h1.voksh1{font-size: 2.5em;line-height: 40px; }
 	@media (min-width: 666px) {
   .header {
-        background: url("https://voksmonitor.azureedge.net/2014-es-onkormanyzati-valasztas/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://kohovolit-github-io.azureedge.net/partmonitor.hu/bg2022.webp") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
       h1.voksh1{font-size: 4.5em;line-height: 60px; }
     }
@@ -46,6 +46,12 @@
     .lead { font-size: 16px; font-weight: 200; line-height: 1.4; margin-bottom: 50px; margin-bottom: 20px; font-size: 21px; color: #fff;}
     .nav a {color: #428BCA}
     </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K33BBGX');
+    </script>
+    <!-- End Google Tag Manager -->
 
 </head>
 <body>
@@ -75,9 +81,17 @@
 
 		<div class="vert-text">
 
-			<h1 class="voksh1">Voksmonitor Budapest 2019</h1>
+			<h1 class="voksh1">Voksmonitor 2022</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
-			<p class="lead">
+            <p class="lead">
+               A <strong>Voksmonitor 2022</strong> segítségével összehasonlíthatod saját véleményedet az országgyűlési választásokon induló pártok álláspontjával.
+
+                   <div style="padding-bottom:3em">
+                        <a href="/hu/2022-es-orszaggyulesi-valasztas/question/1/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+				    </div>
+            </p>
+
+			<!-- <p class="lead">
                A <strong>Voksmonitor Budapest</strong> segítségével összehasonlíthatod saját véleményedet az önkormányzati választásokon induló főpolgármester-jelöltek álláspontjával.
 
                    <div style="padding-bottom:3em">
@@ -91,7 +105,7 @@
                             START IN ENGLISH
                     </a>
                 </div>
-            </p>
+            </p> -->
 
 				   <p>
 
@@ -123,6 +137,7 @@
 
                     <a href="http://kmonitor.hu" title="K-monitor" id="footer-kmonitor-logo"><img src="2014-es-europai-parlamenti-valasztas/image/kmonitor.png" alt="K-Monitor"/></a>
                     <p><a href="http://KohoVolit.eu" title="KohoVolit.eu" id="footer-kohovolit-logo"><img src="image/logo.png" alt="logo kohovolit.eu" /></a></p>
+                    <p><a href="https://cesko.digital" title="Cesko.digital" id="footer-cesko-digital-logo" target="_blank" ><img src='/hu/2022-es-orszaggyulesi-valasztas/cesko.digital.svg' alt="logo cesko.digital" width="311"></a></p>
 
 
 
@@ -132,7 +147,7 @@
   <li><a href="embed/">Voksmonitor beágyazása</a></li>
   <li><a href="archive/">Archív</a></li>
 </ul>
-					<p class="black">Creative Commons BY-SA 4.0 | <a href="http://kmonitor.hu">K-Monitor</a> & <a href="http://kohovolit.eu">KohoVolit.eu</a> 2019</p>
+					<p class="black">Creative Commons BY-SA 4.0 | <a href="http://kmonitor.hu">K-Monitor</a> & <a href="http://kohovolit.eu">KohoVolit.eu</a> 2022</p>
                 </div>
             </div>
         		</div>
@@ -173,7 +188,7 @@
         });
     });
     </script>
-    <!-- google analytics -->
+    <!-- google analytics
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-49538088-1']);
@@ -183,8 +198,11 @@
         ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    </script>
+    </script> -->
     <!-- /google analytics -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K33BBGX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
