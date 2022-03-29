@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/compare", {data:[{answers:[{id:1},{id:2},{id:3},{id:4},{id:5},{id:6}]}],fetch:{},mutations:[]});
