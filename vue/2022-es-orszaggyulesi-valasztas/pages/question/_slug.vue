@@ -170,7 +170,7 @@ export default {
 
   /* transition during entering and leaving : */
   .page-enter-active, .page-leave-active, .page-right-enter-active, .page-right-leave-active {
-    transition: transform 0.2s ease 0.25s, opacity 0.2s ease 0.25s;
+    transition: none; /* transform 0.2s ease 0.25s, opacity 0.2s ease 0.25s; */
   }
   .show-enter-active, .show-leave-active { 
     transition: opacity .1s;
