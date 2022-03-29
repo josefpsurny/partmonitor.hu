@@ -15,7 +15,7 @@
 
 
     <div class="">
-      <div class="row container position-absolute bottom-0 start-50 translate-middle-x">
+      <div class="row container position-fixed bottom-0 start-50 translate-middle-x">
         <div class="col-4 d-grid">
           <button @click="next(1)" class="btn btn-lg" :class="{'btn-primary': isActive[1], 'btn-outline-primary': !isActive[1]}" >IGEN</button>
         </div>
